@@ -1,4 +1,4 @@
-var canvas = new_image(get_image)
+var canvas = new fabric.Canvas('myCanvas')
  block_y=1;
  block_x=1;
 
@@ -31,28 +31,28 @@ keyPressed = e.keyCode;
 console.log(keyPressed);
 
 if(keyPressed == '82'){
-	block_update('rr1.png');
+	new_image('rr1.png');
 	console.log("r")
 } 
 	if(keyPressed == '71')
 	{
-		block_update('gr.png');
+		new_image('gr.png');
 	console.log("g")
 	}
 	
 	if(keyPressed == '89')
 	{
-		block_update('yr.png');
+		new_image('yr.png');
 	console.log("y")
 	}
 	if(keyPressed == '80')
 	{
-		block_update('pr.png');
+		new_image('pr.png');
 	console.log("p")
 	}
 	if(keyPressed == '66')
 	{
-		block_update('br.png');
+		new_image('br.png');
 	console.log("b")
 	}
 	
